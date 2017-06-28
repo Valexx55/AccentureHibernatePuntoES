@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="../css/normalize.css" rel='stylesheet' type='text/css'>
+<link href="../css/style.css" rel='stylesheet' type='text/css'>
+<script src="../js/jquery223.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/olvido.js"></script>
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div id="mensaje_olvido">
+		Introduzca su email de registro y le enviaremos un recordatorio
+	</div>
+    <form id="forumulario_login">
+    	<label for="email">E-mail</label><br>
+		<input type="email" id="email" placeholder="correo@mimail.com" required><br>
+		<input type="button" class="boton" id="boton_ir" onclick="validarEmail();" value="ENVIAR"><br>
+		<a href="login.html">Volver al inicio</a><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	background-color: #81F7F3;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 120%;
+	font-family: 'Raleway', sans-serif;
+	color : #6E6E6E;
+	text-align: center;
+}
+
+#saludo
+{
+	font-size: 2em;
+	margin: 20px 0px;
+}
+
+form 
+{
+	font-size: 1.2em;
+	line-height: 150%;
+}
+
+#guardar
+{
+	font-size: 0.8em;
+}
+
+a
+{
+	color: #848484;
+	font-size: 0.9em;
+	line-height: 10%;
+}
+
+.boton
+{
+	margin: 10px 0;
+ 	font-weight: bold;
+ 	color: #BDBDBD;	 
+}
+
+#mensaje_olvido
+{
+	margin: 0 auto;
+	font-size: 2em;
+	line-height: 130%;
+	margin-bottom: 15px; 
+}
+
+#textarea_auncio
+{
+	resize: none;
+}
+
+p
+{
+	font-size: 0.9em;
+	color:red;
+	line-height: 5%;
+    margin-bottom: 0
+}
